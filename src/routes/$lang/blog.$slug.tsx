@@ -4,6 +4,7 @@ import { t, extra, formatDate, type Lang } from '../../i18n';
 import { getPost } from '../../lib/blog';
 import { revealHeading, revealItem, revealFade } from '../../lib/motion';
 import Breadcrumbs from '../../components/Breadcrumbs';
+import Giscus from '../../components/Giscus';
 import NotFound from '../../components/NotFound';
 import {
   OG_IMAGE,
@@ -136,6 +137,8 @@ function BlogPost() {
       >
         <post.Component />
       </m.div>
+      {/* Remount per post+lang so the pathname mapping picks up the current route. */}
+      <Giscus lang={lang as Lang} key={`${lang}-${slug}`} />
     </article>
   );
 }
