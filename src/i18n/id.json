@@ -1,0 +1,130 @@
+{
+  "navigation": {
+    "home": "Home",
+    "projects": "Proyek",
+    "blog": "Blog",
+    "about": "Tentang",
+    "status": "Terbuka untuk bekerja",
+    "letsTalk": "Say hi"
+  },
+  "home": {
+    "subtitle": "Seorang fullstack web developer yang berbasis di Lombok, Indonesia. Saya menangani semuanya, mulai dari front-end dan back-end hingga infrastruktur cloud.",
+    "experience": {
+      "title": "Pengalaman",
+      "subtitle": "Berikut adalah beberapa pengalaman kerja saya",
+      "items": {
+        "bbpntb": {
+          "company": "Balai Bahasa Provinsi NTB",
+          "role": "Magang Pranata Komputer",
+          "date": "Des 2025 - Jun 2026",
+          "logo": "/logos/bbpntb.jpg",
+          "subtitle": "Mengembangkan sistem peminjaman BMN digital untuk mempercepat proses pengajuan, persetujuan, pemantauan, dan pengarsipan secara transparan serta akuntabel."
+        },
+        "proxocoris": {
+          "company": "Kompetisi Internasional PROXOCORIS 2025",
+          "role": "Pemenang, Fungsionalitas Terbaik",
+          "date": "Apr 2025",
+          "logo": "/logos/proxocoris.png",
+          "subtitle": "Pemenang kompetisi pengembangan web dalam kategori fungsionalitas terbaik"
+        },
+        "diskominfotik": {
+          "company": "DISKOMINFOTIK NTB",
+          "role": "Magang Frontend Developer",
+          "date": "Jul 2024 - Agu 2024",
+          "logo": "/logos/diskominfotik.jpg",
+          "subtitle": "Mengembangkan antarmuka untuk web GIS guna menampilkan area blankspot di NTB dan membuat UI untuk chatbot"
+        },
+        "dicoding": {
+          "company": "Dicoding",
+          "role": "SIB Kampus Merdeka Frontend Web dan Backend",
+          "date": "Agu 2023 - Des 2023",
+          "logo": "/logos/dicoding.png",
+          "subtitle": "Mempelajari pengembangan frontend dan backend melalui kelas dari Dicoding dan mengembangkan proyek bernama Kasa Talk (kamus bahasa Sasak berbasis web)"
+        },
+        "pc": {
+          "company": "PC Bumigora",
+          "role": "Panitia dan Fullstack Developer",
+          "date": "Sep 2023 - Sep 2024",
+          "logo": "/logos/pcbumigora.png",
+          "subtitle": "Berpartisipasi sebagai panitia di setiap acara yang diselenggarakan. Saya juga mengembangkan website untuk organisasi ini, bekerja sebagai fullstack dalam proses pengembangannya"
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyek",
+    "items": {
+      "posapp": {
+        "name": "POS App | Open Source",
+        "description": "Sistem kasir (Point of Sale) berbasis website dan open source untuk mencatat transaksi penjualan, mengelola produk dan stok, serta melihat laporan penjualan dengan mudah, tanpa perlu menginstal aplikasi tambahan."
+      },
+      "simpelbmn": {
+        "name": "SIMPEL-BMN",
+        "description": "Sistem informasi untuk mengajukan peminjaman Barang Milik Negara (BMN) secara daring, mulai dari pengajuan, persetujuan, hingga pemantauan status peminjaman, sehingga proses administrasi menjadi lebih cepat dan tertata."
+      },
+      "cataai": {
+        "name": "Cata AI",
+        "description": "Platform klasifikasi katarak berbasis Deep Learning yang menganalisis citra mata untuk membantu mendeteksi kondisi katarak secara cepat sebagai alat bantu skrining awal."
+      },
+      "pcbumigora": {
+        "name": "PC Bumigora",
+        "description": "Situs informasi resmi PC Bumigora yang memuat profil, kegiatan, dan berbagai informasi terkini bagi anggota maupun masyarakat umum."
+      },
+      "kasaTalk": {
+        "name": "Kasa Talk",
+        "description": "Kamus bahasa Sasak berbasis website untuk mencari arti kata, memahami penggunaannya, dan membantu melestarikan bahasa daerah Sasak bagi pembelajar maupun penutur."
+      },
+      "quranQuiz": {
+        "name": "Quran Quiz",
+        "description": "Aplikasi kuis interaktif untuk membantu menghafal dan menguji hafalan Al-Qur'an melalui pertanyaan yang menyenangkan dan mudah diikuti."
+      },
+      "perkakas": {
+        "name": "Perkakas",
+        "description": "Kumpulan berbagai alat daring praktis yang bisa digunakan langsung dari browser untuk membantu pekerjaan sehari-hari, tanpa perlu instalasi."
+      },
+      "waHelper": {
+        "name": "WA Helper",
+        "description": "Alat bantu untuk mengirim pesan WhatsApp langsung ke nomor mana pun tanpa harus menyimpan nomor tersebut ke kontak terlebih dahulu."
+      },
+      "monanya": {
+        "name": "Monanya",
+        "description": "Aplikasi untuk mengumpulkan pertanyaan secara anonim, sehingga setiap orang bisa bertanya atau memberi masukan dengan bebas tanpa rasa canggung."
+      }
+    }
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "description": {
+      "paragraph1": "Hai, saya Galuh Satria.",
+      "paragraph2": "Seorang Fullstack Web Developer dengan pengalaman dari magang di perusahaan, pelatihan bootcamp intensif, dan berbagai project mandiri.",
+      "paragraph3": "Terbiasa membangun dan mengembangkan aplikasi web menggunakan Next.js, Laravel, dan PostgreSQL, mulai dari tahap perencanaan hingga deployment. Nyaman bekerja dalam tim maupun mengerjakan project secara mandiri."
+    },
+    "favoriteTechStack": "Teknologi Favorit Saat Ini",
+    "contact": "Kontak",
+    "spotify": "Sedang Diputar di Spotify Saya",
+    "spotifySubtitle": "Saya sangat suka mendengarkan musik 😅",
+    "listening": "Tidak sedang mendengarkan",
+    "mail": {
+      "title": "Hubungi Saya",
+      "subtitle": "Saya selalu tertarik untuk menjelajahi peluang baru, berkolaborasi, atau bertukar ide dengan orang-orang yang sejalan. Jangan ragu untuk mengirim email jika Anda ingin melihat portofolio saya atau mendiskusikan proyek potensial.",
+      "name": "Nama",
+      "email": "Email",
+      "message": "Pesan",
+      "sendMessage": "Kirim Pesan"
+    }
+  },
+  "ui": {
+    "selectedProjects": "Proyek Pilihan",
+    "selectedProjectsSubtitle": "Sebuah pilihan proyek yang pernah saya kerjakan.",
+    "allProjects": "Semua proyek",
+    "allPosts": "Semua tulisan",
+    "visitSite": "Kunjungi situs",
+    "sourceCode": "Kode sumber",
+    "letsBuild": "Mari bangun",
+    "somethingGreat": "sesuatu yang hebat",
+    "letsCollaborate": "Mari berkolaborasi",
+    "availableForWork": "Tersedia untuk bekerja",
+    "emptyProjects": "Belum ada proyek untuk ditampilkan.",
+    "emptyPosts": "Belum ada tulisan untuk ditampilkan."
+  }
+}

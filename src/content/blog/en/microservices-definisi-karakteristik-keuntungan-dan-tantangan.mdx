@@ -1,0 +1,64 @@
+---
+title: 'Microservices: Definition, Characteristics, Benefits, and Challenges'
+slug: 'microservices-definisi-karakteristik-keuntungan-dan-tantangan'
+summary: 'A short overview of microservices architecture: characteristics, benefits, challenges, and when it is worth using.'
+createdAt: '2026-09-30'
+---
+
+## Definition
+
+Microservices is a software architecture approach that splits an application into a collection of small, independent services. Each service handles one specific business capability, owns its own codebase, and can be developed, tested, and deployed independently. The services communicate over the network, usually through HTTP/REST, gRPC, or a message broker such as Kafka or RabbitMQ.
+
+This approach differs from a monolithic architecture, where every application function is packaged into a single unit and deployed together.
+
+## Key Characteristics
+
+First, each service has a limited and clearly defined responsibility, usually following business domain boundaries (bounded contexts in Domain-Driven Design).
+
+Second, each service can be deployed without requiring the other services to be redeployed.
+
+Third, each service should ideally manage its own data. Other services must not access a service's database directly; they go through the API that the service exposes.
+
+Fourth, each service can use a different programming language, framework, and storage technology as needed.
+
+Fifth, a failure in one service should not bring down the entire system, as long as mechanisms such as timeouts, retries, and circuit breakers are in place.
+
+## Benefits
+
+**Selective scalability.** Only services under heavy load need to be scaled. In a monolith, the whole application must be replicated even when only one function needs extra capacity.
+
+**Independent deployment.** A team can ship changes to one service without coordinating a release with every other team. This shortens release cycles and lowers the risk of each release.
+
+**Team autonomy.** A small team can fully own one or more services, from development through operations. This reduces dependencies between teams.
+
+**Technology flexibility.** Technology choices can be made per service, so adopting something new does not require rewriting the whole application.
+
+**Failure isolation.** Failures can be contained within a specific service when resilience is designed correctly.
+
+## Challenges
+
+**Distributed system complexity.** Network communication between services introduces latency, partial failures, and potential inconsistency. These problems do not exist when calling a function inside a single process.
+
+**Data consistency.** Because each service owns its own database, cross-service ACID transactions are not available directly. The common solutions are the Saga pattern and eventual consistency, which add complexity to application logic.
+
+**Operational overhead.** The number of units to deploy, monitor, and maintain increases. This requires CI/CD automation, containerization (for example Docker), orchestration (for example Kubernetes), and service discovery.
+
+**Observability.** Tracing a single request across many services requires distributed tracing, centralized logging, and standardized metrics.
+
+**Testing.** Integration and end-to-end testing become harder because many services must run at the same time. Contract testing is often used to reduce this dependency.
+
+**API versioning.** Changing a service's interface can affect consumer services, so backward compatibility policies and version management are required.
+
+## When Microservices Make Sense
+
+Microservices fit when an application has a complex domain that can be split along clear boundaries, when many teams work in parallel, when different parts of the application have significantly different scalability needs, and when the organization already has solid DevOps capabilities.
+
+Microservices are a poor fit for small applications, teams with limited resources, or products whose business domain is still unstable. In those situations, operational cost and distributed complexity tend to outweigh the benefits. Many organizations start with a well-structured monolith (a modular monolith) and split services gradually as real needs appear.
+
+## Recommended Practices
+
+Define service boundaries around business domains, not technical layers. Use asynchronous communication for operations that do not need an immediate response. Put an API gateway in front as the single entry point for clients. Implement timeouts, retries with backoff, and circuit breakers on every inter-service call. Standardize logging, metrics, and tracing from the start. Automate testing and deployment for every service.
+
+## Conclusion
+
+Microservices provide scalability, deployment independence, and team autonomy, but at the cost of distributed system complexity and higher operational overhead. The decision to adopt them should be based on organizational needs and technical readiness, not on architectural trends alone.

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "posapp",
+    "featured": true,
+    "image": "/projects/pos-app.webp",
+    "imageAlt": {
+      "en": "POS App cashier screen",
+      "id": "Tampilan kasir POS App"
+    },
+    "url": null,
+    "source": "https://github.com/galuhsatria/pos-app",
+    "name": {
+      "en": "POS App | Open Source",
+      "id": "POS App | Open Source"
+    },
+    "description": {
+      "en": "An open-source, web-based Point of Sale system for recording sales transactions, managing products and inventory, and viewing sales reports with ease, with no extra installation required.",
+      "id": "Sistem kasir (Point of Sale) berbasis website dan open source untuk mencatat transaksi penjualan, mengelola produk dan stok, serta melihat laporan penjualan dengan mudah, tanpa perlu menginstal aplikasi tambahan."
+    }
+  },
+  {
+    "id": "simpelbmn",
+    "featured": true,
+    "image": "/projects/simpel-bmn.webp",
+    "imageAlt": {
+      "en": "SIMPEL-BMN landing page",
+      "id": "Halaman utama SIMPEL-BMN"
+    },
+    "url": "https://sidaya.kemendikdasmen.go.id/simpelbmn",
+    "source": null,
+    "name": {
+      "en": "SIMPEL-BMN",
+      "id": "SIMPEL-BMN"
+    },
+    "description": {
+      "en": "An information system for submitting state property (BMN) loan requests online, covering submission, approval, and status tracking to make administration faster and better organized.",
+      "id": "Sistem informasi untuk mengajukan peminjaman Barang Milik Negara (BMN) secara daring, mulai dari pengajuan, persetujuan, hingga pemantauan status peminjaman, sehingga proses administrasi menjadi lebih cepat dan tertata."
+    }
+  },
+  {
+    "id": "cataai",
+    "featured": true,
+    "image": "/projects/cata-ai.webp",
+    "imageAlt": {
+      "en": "Cata AI landing page",
+      "id": "Halaman utama Cata AI"
+    },
+    "url": "https://cata-ai.vercel.app/",
+    "source": null,
+    "name": {
+      "en": "Cata AI",
+      "id": "Cata AI"
+    },
+    "description": {
+      "en": "A Deep Learning-based cataract classification platform that analyzes eye images to help detect cataracts quickly, serving as an early screening aid.",
+      "id": "Platform klasifikasi katarak berbasis Deep Learning yang menganalisis citra mata untuk membantu mendeteksi kondisi katarak secara cepat sebagai alat bantu skrining awal."
+    }
+  },
+  {
+    "id": "pcbumigora",
+    "featured": false,
+    "image": "/projects/pc-bumigora.png",
+    "imageAlt": {
+      "en": "PC Bumigora organization website homepage",
+      "id": "Halaman utama situs PC Bumigora"
+    },
+    "url": "https://pc.ubg.ac.id/",
+    "source": null,
+    "name": {
+      "en": "PC Bumigora",
+      "id": "PC Bumigora"
+    },
+    "description": {
+      "en": "The official information website of PC Bumigora, featuring its profile, activities, and the latest updates for members and the general public.",
+      "id": "Situs informasi resmi PC Bumigora yang memuat profil, kegiatan, dan berbagai informasi terkini bagi anggota maupun masyarakat umum."
+    }
+  },
+  {
+    "id": "kasaTalk",
+    "featured": false,
+    "image": "/projects/kasa-talk.png",
+    "imageAlt": {
+      "en": "Kasa Talk Sasak language dictionary interface",
+      "id": "Antarmuka kamus bahasa Sasak Kasa Talk"
+    },
+    "url": "https://kasatalk.vercel.app/",
+    "source": null,
+    "name": {
+      "en": "Kasa Talk",
+      "id": "Kasa Talk"
+    },
+    "description": {
+      "en": "A web-based Sasak language dictionary for looking up word meanings and understanding their usage, helping preserve the Sasak regional language for learners and speakers alike.",
+      "id": "Kamus bahasa Sasak berbasis website untuk mencari arti kata, memahami penggunaannya, dan membantu melestarikan bahasa daerah Sasak bagi pembelajar maupun penutur."
+    }
+  },
+  {
+    "id": "quranQuiz",
+    "featured": false,
+    "image": "/projects/quran-quiz.png",
+    "imageAlt": {
+      "en": "Quran Quiz interactive quiz screen",
+      "id": "Layar kuis interaktif Quran Quiz"
+    },
+    "url": "https://alquran-quiz.vercel.app/",
+    "source": null,
+    "name": {
+      "en": "Quran Quiz",
+      "id": "Quran Quiz"
+    },
+    "description": {
+      "en": "An interactive quiz app that helps users memorize and test their Qur'an memorization through engaging, easy-to-follow questions.",
+      "id": "Aplikasi kuis interaktif untuk membantu menghafal dan menguji hafalan Al-Qur'an melalui pertanyaan yang menyenangkan dan mudah diikuti."
+    }
+  },
+  {
+    "id": "perkakas",
+    "featured": true,
+    "image": "/projects/perkakas.webp",
+    "imageAlt": {
+      "en": "Perkakas tools overview",
+      "id": "Ringkasan alat Perkakas"
+    },
+    "url": "https://perkakas.galuhsatria.space/",
+    "source": "https://github.com/galuhsatria/perkakas",
+    "name": {
+      "en": "Perkakas",
+      "id": "Perkakas"
+    },
+    "description": {
+      "en": "A collection of practical online tools you can use right from your browser to support everyday tasks, with no installation needed.",
+      "id": "Kumpulan berbagai alat daring praktis yang bisa digunakan langsung dari browser untuk membantu pekerjaan sehari-hari, tanpa perlu instalasi."
+    }
+  },
+  {
+    "id": "monanya",
+    "featured": false,
+    "image": "/projects/monanya.png",
+    "imageAlt": {
+      "en": "Monanya anonymous question app interface",
+      "id": "Antarmuka aplikasi pertanyaan anonim Monanya"
+    },
+    "url": "https://monanya.vercel.app/",
+    "source": null,
+    "name": {
+      "en": "Monanya",
+      "id": "Monanya"
+    },
+    "description": {
+      "en": "An app for collecting anonymous questions, so anyone can ask or share feedback freely without hesitation.",
+      "id": "Aplikasi untuk mengumpulkan pertanyaan secara anonim, sehingga setiap orang bisa bertanya atau memberi masukan dengan bebas tanpa rasa canggung."
+    }
+  }
+]

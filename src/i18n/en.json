@@ -1,0 +1,130 @@
+{
+  "navigation": {
+    "home": "Home",
+    "projects": "Projects",
+    "blog": "Blog",
+    "about": "About",
+    "status": "Open to work",
+    "letsTalk": "Say hi"
+  },
+  "home": {
+    "subtitle": "A fullstack web developer based in Lombok, Indonesia. I handle everything from front-end and back-end to cloud infrastructure.",
+    "experience": {
+      "title": "Experience",
+      "subtitle": "Here are some of my work experiences",
+      "items": {
+        "bbpntb": {
+          "company": "Balai Bahasa NTB",
+          "role": "IT Specialist Internship",
+          "date": "Dec 2025 - Jun 2026",
+          "logo": "/logos/bbpntb.jpg",
+          "subtitle": "Developed a digital asset lending system to streamline submission, approval, tracking, and document archiving with greater transparency and accountability."
+        },
+        "proxocoris": {
+          "company": "PROXOCORIS International Competition 2025",
+          "role": "Winner, Best Functionality",
+          "date": "Apr 2025",
+          "logo": "/logos/proxocoris.png",
+          "subtitle": "Winner of the web development competition in the best functionality category"
+        },
+        "diskominfotik": {
+          "company": "DISKOMINFOTIK NTB",
+          "role": "Frontend Developer Intern",
+          "date": "Jul 2024 - Aug 2024",
+          "logo": "/logos/diskominfotik.jpg",
+          "subtitle": "Developing UI for web GIS to show area of blankspot in NTB and creating UI for chatbot"
+        },
+        "dicoding": {
+          "company": "Dicoding",
+          "role": "SIB Kampus Merdeka Frontend Web and Backend",
+          "date": "Aug 2023 - Dec 2023",
+          "logo": "/logos/dicoding.png",
+          "subtitle": "Learn about web frontend and backend development through classes provided by dicoding and develop a project called Kasa Talk (website-based Sasak language dictionary)"
+        },
+        "pc": {
+          "company": "PC Bumigora",
+          "role": "Committee Member and Fullstack Developer",
+          "date": "Sep 2023 - Sep 2024",
+          "logo": "/logos/pcbumigora.png",
+          "subtitle": "Participate as a committee in every event held. I also developed a website for the organization, I work as a fullstack in developing the website"
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "items": {
+      "posapp": {
+        "name": "POS App | Open Source",
+        "description": "An open-source, web-based Point of Sale system for recording sales transactions, managing products and inventory, and viewing sales reports with ease, with no extra installation required."
+      },
+      "simpelbmn": {
+        "name": "SIMPEL-BMN",
+        "description": "An information system for submitting state property (BMN) loan requests online, covering submission, approval, and status tracking to make administration faster and better organized."
+      },
+      "cataai": {
+        "name": "Cata AI",
+        "description": "A Deep Learning-based cataract classification platform that analyzes eye images to help detect cataracts quickly, serving as an early screening aid."
+      },
+      "pcbumigora": {
+        "name": "PC Bumigora",
+        "description": "The official information website of PC Bumigora, featuring its profile, activities, and the latest updates for members and the general public."
+      },
+      "kasaTalk": {
+        "name": "Kasa Talk",
+        "description": "A web-based Sasak language dictionary for looking up word meanings and understanding their usage, helping preserve the Sasak regional language for learners and speakers alike."
+      },
+      "quranQuiz": {
+        "name": "Quran Quiz",
+        "description": "An interactive quiz app that helps users memorize and test their Qur'an memorization through engaging, easy-to-follow questions."
+      },
+      "perkakas": {
+        "name": "Perkakas",
+        "description": "A collection of practical online tools you can use right from your browser to support everyday tasks, with no installation needed."
+      },
+      "waHelper": {
+        "name": "WA Helper",
+        "description": "A handy tool for sending WhatsApp messages directly to any number without having to save it to your contacts first."
+      },
+      "monanya": {
+        "name": "Monanya",
+        "description": "An app for collecting anonymous questions, so anyone can ask or share feedback freely without hesitation."
+      }
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "description": {
+      "paragraph1": "Hi, I'm Galuh Satria.",
+      "paragraph2": "A Fullstack Web Developer with experience through corporate internships, intensive bootcamp training, and independent projects.",
+      "paragraph3": "Skilled in building and deploying web applications using Next.js, Laravel, and PostgreSQL, with experience across the full development lifecycle from planning to deployment. Comfortable working in both structured team environments and self-directed projects."
+    },
+    "favoriteTechStack": "Current Favorite Tech Stack",
+    "contact": "Contact",
+    "spotify": "Currently playing on my Spotify",
+    "spotifySubtitle": "I really like listening to music 😅",
+    "listening": "Not listening",
+    "mail": {
+      "title": "Get in touch",
+      "subtitle": "I'm always interested in exploring new opportunities, collaborating, or exchanging ideas with like-minded individuals. Feel free to email me if you'd like to see my portfolio deck or to discuss a potential project.",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "sendMessage": "Send Message"
+    }
+  },
+  "ui": {
+    "selectedProjects": "Selected Projects",
+    "selectedProjectsSubtitle": "A selection of projects that I've worked on.",
+    "allProjects": "All projects",
+    "allPosts": "All posts",
+    "visitSite": "Visit site",
+    "sourceCode": "Source code",
+    "letsBuild": "Let's build",
+    "somethingGreat": "something great",
+    "letsCollaborate": "Let's collaborate",
+    "availableForWork": "Available for work",
+    "emptyProjects": "No projects to show yet.",
+    "emptyPosts": "No posts to show yet."
+  }
+}

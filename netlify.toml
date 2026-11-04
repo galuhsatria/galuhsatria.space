@@ -1,0 +1,8 @@
+# Netlify shadows redirect rules when a matching file exists, so force this one
+# past dist/client/index.html. Cloudflare Pages uses the generated _redirects
+# rule instead; Vercel uses vercel.json.
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 301
+  force = true

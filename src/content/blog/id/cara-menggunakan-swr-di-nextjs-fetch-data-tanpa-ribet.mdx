@@ -1,0 +1,67 @@
+---
+title: 'Cara Menggunakan SWR di Next.js: Fetch Data Tanpa Ribet'
+slug: 'cara-menggunakan-SWR-di-nextjs-fetch-data-tanpa-ribet'
+summary: 'Data fetching efisien di Next.js pakai SWR, simpel!'
+createdAt: '2025-04-13'
+---
+
+SWR adalah cara modern untuk melakukan data fetching di React dan Next.js. Dibuat oleh tim Vercel, SWR bikin proses pengambilan data jadi lebih efisien, cepat, dan tetap sinkron tanpa harus mikir terlalu ribet soal loading state, revalidasi, atau caching.
+
+## Apa Itu SWR?
+
+**SWR** singkatan dari _stale-while-revalidate_, sebuah strategi caching di mana data lama ditampilkan dulu, sambil mengambil data baru di belakang layar. Cocok banget buat aplikasi yang butuh **data up-to-date** tapi tetap responsif.
+
+## Instalasi
+
+Kalau kamu pakai Next.js, install SWR cukup lewat npm/yarn:
+
+`npm install swr`
+
+## Fetch Data dengan SWR
+
+Contoh simpel: kita fetch data dari API publik (JSONPlaceholder).
+
+1. **Buat fungsi fetcher**
+
+```js
+// lib/fetcher.js
+export const fetcher = (url) => fetch(url).then((res) => res.json());
+```
+
+2. **Gunakan di komponen Next.js**
+
+```js
+// app/posts/page.js
+import useSWR from 'swr';
+import { fetcher } from '../lib/fetcher';
+
+export default function Posts() {
+  const { data, error, isLoading } = useSWR('https://jsonplaceholder.typicode.com/posts', fetcher);
+
+  if (isLoading) return <p>Loading...</p>;
+  if (error) return <p>Terjadi kesalahan saat mengambil data</p>;
+
+  return (
+    <div className="p-4">
+      <h1 className="text-xl font-bold mb-4">Daftar Post</h1>
+      <ul className="space-y-2">
+        {data.map((post) => (
+          <li key={post.id} className="border p-3 rounded">
+            <h2 className="font-semibold">{post.title}</h2>
+            <p>{post.body}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+```
+
+## Kenapa Pakai SWR?
+
+- &#x20;Otomatis handle loading, error, dan revalidasi
+- Cache otomatis & super cepat
+- Built-in retry & fallback
+- Bisa dipakai di Client-side maupun Server-side
+
+SWR bikin proses fetching data di Next.js jauh lebih simpel dan efisien. Cocok buat kamu yang pengen bikin aplikasi yang cepat, ringan, dan tetap up-to-date tanpa harus banyak mikirin lifecycle `useEffect`.
