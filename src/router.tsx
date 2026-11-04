@@ -11,5 +11,8 @@ export function getRouter() {
     // Jump to the top instantly on navigation instead of animating the
     // reset (scroll-behavior: smooth on <html> otherwise animates it).
     scrollRestorationBehavior: 'instant',
+    // Same for hash navigation (e.g. /en/#say-hi): land instantly on the
+    // target section instead of scrolling through the page visibly.
+    defaultHashScrollIntoView: { behavior: 'instant', block: 'start' },
   });
 }

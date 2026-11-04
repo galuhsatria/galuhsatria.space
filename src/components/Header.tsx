@@ -68,9 +68,15 @@ export default function Header({ lang }: { lang: Lang }) {
 
               if (l.hash) {
                 return (
-                  <a key={l.id} href={`${base}#${l.hash}`} className={className}>
+                  <Link
+                    key={l.id}
+                    to={base as never}
+                    hash={l.hash}
+                    activeOptions={{ exact: true }}
+                    className={className}
+                  >
                     {l.label}
-                  </a>
+                  </Link>
                 );
               }
 
